@@ -1,4 +1,4 @@
-import { Semaphore } from './semaphore'
+import Semaphore from './Semaphore'
 /**
  * 对每个资源进行并发访问控制
  */

@@ -10,7 +10,7 @@ interface Waiting<T> {
 	reject: (reason?: any) => void;
 }
 
-export class Semaphore<T = void> {
+export default class Semaphore<T = void> {
 
 	private _capacity: number;
 	private _active: number;

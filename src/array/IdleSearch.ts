@@ -1,4 +1,4 @@
-import { BatchProcessor } from '../BatchProcessor'
+import BatchProcessor from '../BatchProcessor'
 import Future from '../Future'
 
 /**

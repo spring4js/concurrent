@@ -1,4 +1,4 @@
-import { Semaphore } from '../semaphore'
+import Semaphore from '../Semaphore'
 
 /**
  * 不支持重入

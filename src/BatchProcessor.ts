@@ -6,7 +6,7 @@ export type FinishedCb = (isAborted: boolean) => void
 
 const logger = LoggerFactory.getLogger('BatchProcessor')
 
-export class BatchProcessor<T = any> {
+export default class BatchProcessor<T = any> {
   name: string
   private taskQueue: T[] = []
   private abortFlag: boolean = false

@@ -1,1 +1,6 @@
+export {default as BatchProcessor} from './BatchProcessor'
+export {default as BatchProcessorAsync} from './BatchProcessorAsync'
+export {default as Future} from './Future'
 export {default as MutexLock} from './MutexLock'
+export {default as ResourceConcurrentEliminator} from './ResourceConcurrentEliminator'
+export {default as Semaphore} from './Semaphore'
